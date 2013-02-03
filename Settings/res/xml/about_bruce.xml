@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:bruce="http://schemas.android.com/apk/res/com.android.settings">
+
+	<Preference
+		android:key="bruce_website"
+		android:title="@string/bruce_website_title"
+		android:summary="@string/bruce_website_summary" />
+
+	<Preference
+		android:key="bruce_source"
+		android:title="@string/bruce_source_title"
+		android:summary="@string/bruce_source_summary" />
+
+	<PreferenceCategory
+		android:key="bruce_team"
+		android:title="@string/bruce_team">
+
+		<!-- Designer -->
+		<Preference
+			android:title="@string/brucekim_title"
+			android:summary="@string/brucekim_summary" />
+
+		<Preference
+			android:title="@string/lzr_title"
+			android:summary="@string/lzr_summary" />
+
+		<Preference
+			android:title="@string/undo_title"
+			android:summary="@string/undo_summary" />
+
+		<!-- App Developer -->
+		<Preference
+			android:title="@string/cov_title"
+			android:summary="@string/cov_summary" />
+
+		<Preference
+			android:title="@string/shin_title"
+			android:summary="@string/shin_summary" />
+
+		<!-- App & Rom Developer -->
+		<Preference
+			android:title="@string/tools_title"
+			android:summary="@string/tools_summary" />
+
+		<Preference
+			android:title="@string/lee_title"
+			android:summary="string/lee_summary" />
+
+		<!-- Kernel Developer -->
+		<Preference
+			android:title="@string/kim_title"
+			android:summary="@string/kim_summary" />
+
+		<!-- Cooker -->
+		<Preference
+			android:title="@string/pumpkin_title"
+			android:summary="@string/pumpkin_summary" />
+
+		<Preference
+			android:title="@string/soit_title"
+			android:summary="@string/cooker_summary" />
+
+		<Preference
+			android:title="@string/nimnim_title"
+			android:summary="@string/cooker_summary" />
+
+		<!-- Server -->
+		<Preference
+			android:title="@string/cream_title"
+			android:summary="@string/cream_summary" />
+
+
+
+<!--		<com.android.settings.widgets.DeveloperPreference
+			android:title="Daniel MM"
+			bruce:nameDev="Daniel MM"
+			bruce:twitterHandle="daxxmax"
+			bruce:donateLink="@string/donate_daxxmax" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="Arz Bhatia"
+			bruce:nameDev="Arz Bhatia"
+			bruce:twitterHandle="arzbhatia"
+			bruce:donateLink="@string/donate_arzbhatia" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="Stefano Villa"
+			bruce:nameDev="anarkia"
+			bruce:twitterHandle="anarkia1976" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="David Vidal"
+			bruce:nameDev="David Vidal"
+			bruce:twitterHandle="dorilife" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="AlexForTomorrow"
+			bruce:nameDev="AlexForTomorrow"
+			bruce:twitterHandle="AlexForTomorrow" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="DOOMSlayer"
+			bruce:nameDev="DOOMSlayer"
+			bruce:twitterHandle="d00mslayer" />
+			
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="flipz"
+			bruce:nameDev="flipz"
+			bruce:twitterHandle="flipzmod3"
+			bruce:donateLink="@string/donate_flipz" />
+
+                <com.android.settings.widgets.DeveloperPreference
+                        android:title="NetChipTi"
+                        bruce:nameDev="NetChipTi"
+                        bruce:twitterHandle="NetchipTI" />
+
+                <com.android.settings.widgets.DeveloperPreference
+                        android:title="fuss132"
+                        bruce:nameDev="fuss132"
+                        bruce:twitterHandle="fuss132Dev" /> -->
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

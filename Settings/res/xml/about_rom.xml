@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:xy="http://schemas.android.com/apk/res/com.android.settings">
+
+	<PreferenceCategory
+		android:key="xylon"
+		android:title="@string/xylon">
+
+		<Preference
+			android:key="xylon_website"
+			android:title="@string/xylon_website_title"
+			android:summary="@string/xylon_website_summary" />
+
+		<Preference
+			android:key="xylon_source"
+			android:title="@string/xylon_source_title"
+			android:summary="@string/xylon_source_summary" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="team"
+		android:title="@string/team">
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="Daniel MM"
+			xy:nameDev="Daniel MM"
+			xy:twitterHandle="daxxmax"
+			xy:donateLink="@string/donate_daxxmax" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="Arz Bhatia"
+			xy:nameDev="Arz Bhatia"
+			xy:twitterHandle="arzbhatia"
+			xy:donateLink="@string/donate_arzbhatia" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="Stefano Villa"
+			xy:nameDev="anarkia"
+			xy:twitterHandle="anarkia1976" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="David Vidal"
+			xy:nameDev="David Vidal"
+			xy:twitterHandle="dorilife" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="AlexForTomorrow"
+			xy:nameDev="AlexForTomorrow"
+			xy:twitterHandle="AlexForTomorrow" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="DOOMSlayer"
+			xy:nameDev="DOOMSlayer"
+			xy:twitterHandle="d00mslayer" />
+			
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="flipz"
+			xy:nameDev="flipz"
+			xy:twitterHandle="flipzmod3"
+			xy:donateLink="@string/donate_flipz" />
+
+                <com.android.settings.widgets.DeveloperPreference
+                        android:title="NetChipTi"
+                        xy:nameDev="NetChipTi"
+                        xy:twitterHandle="NetchipTI" />
+
+                <com.android.settings.widgets.DeveloperPreference
+                        android:title="fuss132"
+                        xy:nameDev="fuss132"
+                        xy:twitterHandle="fuss132Dev" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="contributors"
+		android:title="@string/contributors">
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="Fruit N' Veggies"
+			xy:nameDev="Fruit N' Veggies"
+			xy:twitterHandle="ProjectFNV"
+			xy:donateLink="@string/donate_fnv" />
+
+                <com.android.settings.widgets.DeveloperPreference
+                        android:title="CyanogenMod"
+                        xy:nameDev="CyanogenMod"
+                        xy:twitterHandle="cyanogenmod"
+                        xy:donateLink="@string/donate_cyanogenmod" />
+
+                <com.android.settings.widgets.DeveloperPreference
+            		android:title="AOKP"
+	                xy:nameDev="AOKP"
+	                xy:twitterHandle="aokp_rom"
+                        xy:donateLink="@string/donate_aokp" />
+
+                <com.android.settings.widgets.DeveloperPreference
+            		android:title="TeamBAKED"
+	                xy:nameDev="TeamBAKED"
+	                xy:twitterHandle="team_baked_rom" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="ParanoidAndroid"
+			xy:nameDev="ParanoidAndroid"
+			xy:twitterHandle="paranoid_team" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="Jesús David"
+			xy:nameDev="Jesús David"
+			xy:twitterHandle="D4rKn3sSyS"
+			xy:donateLink="@string/donate_d4" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
